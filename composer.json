@@ -1,0 +1,22 @@
+{
+    "name": "bugtower/bugtower-report",
+    "type": "library",
+    "description": "Log saver",
+    "keywords": [],
+    "homepage": "http://bugtower.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bugtower",
+            "email": "admin@bugtower.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "BugTower\\BugTowerLaravel\\": "src/"
+        }
+    }
+}

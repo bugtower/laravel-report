@@ -1,0 +1,11 @@
+{
+  "providers": [
+    "BugTower\BugsnagLaravel\BugTowerLaravelServiceProvider"
+  ],
+  "aliases": [
+    {
+      "alias": "BugTower",
+      "facade": "BugTower\BugTowerLaravel\BugTowerFacade"
+    }
+  ]
+}
