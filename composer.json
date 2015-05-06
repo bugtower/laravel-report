@@ -1,7 +1,7 @@
 {
     "name": "bugtower/bugtower-report",
     "type": "library",
-    "description": "Log saver",
+    "description": "BugTower Log saver",
     "keywords": [],
     "homepage": "http://bugtower.net",
     "license": "MIT",
