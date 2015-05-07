@@ -25,7 +25,7 @@ class BugTowerExceptionHandler extends ExceptionHandler {
         $BugTower = $app['BugTower'];
 
         if ($BugTower) {
-            $BugTower->notifyException($e, null, "error");
+            $BugTower->notifyException($e, "error");
         }
         return parent::report($e);
     }

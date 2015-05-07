@@ -53,8 +53,8 @@ class BugTowerLaravelServiceProvider extends ServiceProvider
             if (is_null($config)) {
                 $config = $app['config']['BugTower'] ?: $app['config']['BugTower::config'];
             }
-
-            return "----";
+            
+            return new \BugTower\BugTowerLaravel\BugTowerClient();
         });
     }
 
