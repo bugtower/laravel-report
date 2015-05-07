@@ -70,6 +70,7 @@ Configuration
 		...
 		'bugtower' => [
 			'key' => 'YOUR-API-KEY-HERE',
+			'endpoint' => 'http://bugtower.net/api/send',
 		]
 		...
     ```
@@ -101,6 +102,7 @@ Configuration
 			],
 			'bugtower' => [
 				'key' => 'YOUR-API-KEY-HERE',
+				'endpoint' => 'http://bugtower.net/api/send',
 			]
 		];
     ```
